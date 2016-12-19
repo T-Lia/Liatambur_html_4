@@ -4,7 +4,12 @@ html {
 
 body {
 	background: url(../img/background.png) no-repeat fixed;
-	background-position-y: 26%;
+	background-position-y: 27%;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
 }
 
 .main {
@@ -57,7 +62,7 @@ body {
 .menu > li {
 	float: left;
 	position: relative;		
-	padding: 5px 30px;
+	padding: 5px 29px;
 	margin: 5px;
 }
 
