@@ -9,7 +9,6 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
 }
 
 .main {
@@ -48,9 +47,8 @@ body {
 	margin-top: -3px; 
 	border-bottom: 2px solid #000;
 	box-shadow: 0 0 5px 1px #000;
-	z-index: 3;
-
 }
+
 .menu li {
 	display: inline-block;
 	position: relative;
@@ -85,66 +83,7 @@ body {
 
 .menu li:hover .submenu {
 	display: block;
-	z-index: 2;
 }
-
-/*.menu {
-	display: block;
-	list-style: none;
-	background: #323232;
-	margin-top: -3px; 
-	border: 1px solid #000;
-	box-shadow: 0 0 5px 1px #000;	
-	z-index: 3;
-}
-
-.clearfix:after {
-	content: '';
-	clear: both;
-	display: block;
-	float: none;
-}
-
-.menu > li {
-	float: left;
-	position: relative;		
-	padding: 5px 29px;
-	margin: 5px;
-}
-
-
-.menu > li > a {
-	display: block;
-	text-decoration: none;
-	font-family: Tahoma;
-	font-size: 14px;
-	color: #fff;
-}
-
-.submenu {
-	display: none;
-	position: absolute;
-	width: 150px;
-	top*: 31px;
-	left: 20px;
-	background-color: #323232;	
-}
-
-.submenu > li > a {
-	padding-top: 10px;
-	padding-left: 10px;
-	line-height: 2;
-	text-decoration: none;
-	font-family: Tahoma;
-	font-size: 14px;
-	color: #fff;
-}
-
-
-.menu li:hover .submenu {
-	display: block;
-	
-}*/
 
 .content {
 	width: 1000px;
